@@ -74,10 +74,9 @@ src/
 * [React Native HTML View](https://github.com/jsdf/react-native-htmlview)
 
 
-## Unresolved Detected Issues
-### Font-Family unrecognized by iOS
-A pesar de estar instalada en todos los lugares correctos del proyecto, iOS no puede reconocer las tipografias instaladas. Intente arreglarlo de muchas formas, inclusive de esta [forma](https://www.pixeldock.com/blog/uifont-problem-when-using-more-than-2-custom-fonts-of-the-same-font-family/#8230) y desafortunadamente, no lo pude solucionar. Se usaron las tipogafias por default de cada SO para prevenir problemas.
-La idea del diseño original, era utilizar las tipografias Sabon y IdealSans de la misma manera que se utilizan en la pagina.
+## Unresolved Issues
+### Unrecognized Font-Family by iOS
+Despite being installed in all the correct places in the project, iOS cannot recognize the installed fonts. Attempts to resolve this issue, including various methods, were not successful. Default system fonts for each operating system were used to avoid potential problems. The original design idea was to use the Sabon and IdealSans fonts in the same way they are used on the website.
 
 ### Deprecated Prop-types
-React Native HTML View uses deprecated prop-types and it shows an error everytime the project is loaded. The solution is using a patch, pero como esto podia ocasionar potenciales problemas, decidi dejar el error.
+React Native HTML View uses deprecated prop-types, which results in an error every time the project is loaded. The solution involves using a patch, but as this could potentially cause issues, it was decided to leave the error as is.
