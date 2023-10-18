@@ -1,0 +1,13 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/typography/fonts/IdealSans-Light-Pro.otf",
+      "sha1": "bfdd59f7305a28833844894a15ab8bf1503ce678"
+    },
+    {
+      "path": "assets/typography/fonts/SabonBold.ttf",
+      "sha1": "fcb9c2c9270b775dc24ca4125bac543d95f0e054"
+    }
+  ]
+}
