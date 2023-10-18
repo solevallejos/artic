@@ -35,9 +35,14 @@ export const useFetchArtworks = () => {
     fetchData();
   }, []);
 
+  const refetchData = () => {
+    setLoading('Retrieving artwork');
+    fetchData();
+  };
+
   const loadMore = () => {
     fetchData();
   };
 
-  return {artworks, error, loading, loadMore};
+  return {artworks, error, loading, loadMore, refetchData};
 };

@@ -1,7 +1,9 @@
 import React from 'react';
-import {ActivityIndicator} from 'react-native';
+import {ActivityIndicator, View} from 'react-native';
 import {THEME} from '../../../assets/theme/theme';
 import {LargeBody} from '../../../assets/typography/typography';
+import Container from '../Container';
+import { LoaderContainer } from './styled';
 
 interface LoaderProps {
   message: string;
@@ -9,10 +11,12 @@ interface LoaderProps {
 
 const Loader: React.FC<LoaderProps> = ({message}) => {
   return (
-    <>
+    <Container>
+      <LoaderContainer>
       <ActivityIndicator color={THEME.COLORS.SECONDARY_TEXT} size="large" />
       <LargeBody>{message}</LargeBody>
-    </>
+      </LoaderContainer>
+    </Container>
   );
 };
 
