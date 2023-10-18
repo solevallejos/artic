@@ -73,6 +73,24 @@ src/
 * [Fast Image](https://github.com/DylanVann/react-native-fast-image)
 * [React Native HTML View](https://github.com/jsdf/react-native-htmlview)
 
+## API Reference
+Base URL https://api.artic.edu/
+
+#### Get all the artworks
+```http
+  GET /api/v1/artworks?page=${page}&limit=${limit}
+```
+
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `page`    | `number` | Value necessary for pagination.                     |
+
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `limit`   | `number` | Limit the ammount of data retrieved         |
+
 
 ## Unresolved Issues
 ### Unrecognized Font-Family by iOS
