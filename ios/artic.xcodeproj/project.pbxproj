@@ -11,9 +11,9 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		5476835E9E3831D3A269B3DF /* libPods-artic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9748B3F07235B44F0705CD6 /* libPods-artic.a */; };
-		6AD0B3A90EEBDB6061ADA304 /* libPods-artic-articTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6AE7DC22486F9FD93B1FA3 /* libPods-artic-articTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		967530F4D2EB26479AE227BC /* libPods-artic-articTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4F2FD2045CB96B9876025F /* libPods-artic-articTests.a */; };
+		C819EF0203C9665491FC0C8A /* libPods-artic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CC92A8366B044F27D09F5E /* libPods-artic.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +36,14 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = artic/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = artic/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = artic/main.m; sourceTree = "<group>"; };
-		1EFBA05CB1E8F9A463D05FA1 /* Pods-artic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-artic.release.xcconfig"; path = "Target Support Files/Pods-artic/Pods-artic.release.xcconfig"; sourceTree = "<group>"; };
+		28538B981C15A83D6AB4AD4D /* Pods-artic-articTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-artic-articTests.release.xcconfig"; path = "Target Support Files/Pods-artic-articTests/Pods-artic-articTests.release.xcconfig"; sourceTree = "<group>"; };
+		35CC92A8366B044F27D09F5E /* libPods-artic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-artic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ECEF50FD6F9361E13F0B00B /* Pods-artic-articTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-artic-articTests.debug.xcconfig"; path = "Target Support Files/Pods-artic-articTests/Pods-artic-articTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = artic/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		97AC5976DF206C4FDC3FCE16 /* Pods-artic-articTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-artic-articTests.debug.xcconfig"; path = "Target Support Files/Pods-artic-articTests/Pods-artic-articTests.debug.xcconfig"; sourceTree = "<group>"; };
-		9B6AE7DC22486F9FD93B1FA3 /* libPods-artic-articTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-artic-articTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9DFD6C54738346AED364B89C /* Pods-artic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-artic.debug.xcconfig"; path = "Target Support Files/Pods-artic/Pods-artic.debug.xcconfig"; sourceTree = "<group>"; };
-		BDA665FB9254C26E5B65869C /* Pods-artic-articTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-artic-articTests.release.xcconfig"; path = "Target Support Files/Pods-artic-articTests/Pods-artic-articTests.release.xcconfig"; sourceTree = "<group>"; };
-		C9748B3F07235B44F0705CD6 /* libPods-artic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-artic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA4F2FD2045CB96B9876025F /* libPods-artic-articTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-artic-articTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CE373ABAA476E9643623C6 /* Pods-artic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-artic.release.xcconfig"; path = "Target Support Files/Pods-artic/Pods-artic.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED74BDADC410A87FCE53C150 /* Pods-artic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-artic.debug.xcconfig"; path = "Target Support Files/Pods-artic/Pods-artic.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AD0B3A90EEBDB6061ADA304 /* libPods-artic-articTests.a in Frameworks */,
+				967530F4D2EB26479AE227BC /* libPods-artic-articTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5476835E9E3831D3A269B3DF /* libPods-artic.a in Frameworks */,
+				C819EF0203C9665491FC0C8A /* libPods-artic.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				C9748B3F07235B44F0705CD6 /* libPods-artic.a */,
-				9B6AE7DC22486F9FD93B1FA3 /* libPods-artic-articTests.a */,
+				35CC92A8366B044F27D09F5E /* libPods-artic.a */,
+				AA4F2FD2045CB96B9876025F /* libPods-artic-articTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -148,10 +148,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9DFD6C54738346AED364B89C /* Pods-artic.debug.xcconfig */,
-				1EFBA05CB1E8F9A463D05FA1 /* Pods-artic.release.xcconfig */,
-				97AC5976DF206C4FDC3FCE16 /* Pods-artic-articTests.debug.xcconfig */,
-				BDA665FB9254C26E5B65869C /* Pods-artic-articTests.release.xcconfig */,
+				ED74BDADC410A87FCE53C150 /* Pods-artic.debug.xcconfig */,
+				E1CE373ABAA476E9643623C6 /* Pods-artic.release.xcconfig */,
+				4ECEF50FD6F9361E13F0B00B /* Pods-artic-articTests.debug.xcconfig */,
+				28538B981C15A83D6AB4AD4D /* Pods-artic-articTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -163,12 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "articTests" */;
 			buildPhases = (
-				91CF74B64B70AF943C7A9779 /* [CP] Check Pods Manifest.lock */,
+				680972C637B6B3AD6E31731F /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				7EFDDE41948E2786FC1511CF /* [CP] Embed Pods Frameworks */,
-				10C2AF9B1C1866BFD98529A8 /* [CP] Copy Pods Resources */,
+				AE4B31B972F6D4B5FDB1462A /* [CP] Embed Pods Frameworks */,
+				2FF656515B721F9A18D1B0F1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -184,14 +184,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "artic" */;
 			buildPhases = (
-				50A07E39EB6C99AF9850D3D1 /* [CP] Check Pods Manifest.lock */,
+				5CDFD1CB88C30D4D37699EBB /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				381FED6211FBFECD4728C240 /* [CP] Embed Pods Frameworks */,
-				347612BEA291B03D30FFEFBD /* [CP] Copy Pods Resources */,
+				7212E60F9B381F8A062D2DE4 /* [CP] Embed Pods Frameworks */,
+				6C10C8165DA75619FE7088AC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -274,7 +274,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		10C2AF9B1C1866BFD98529A8 /* [CP] Copy Pods Resources */ = {
+		2FF656515B721F9A18D1B0F1 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -291,41 +291,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-artic-articTests/Pods-artic-articTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		347612BEA291B03D30FFEFBD /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-artic/Pods-artic-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-artic/Pods-artic-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-artic/Pods-artic-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		381FED6211FBFECD4728C240 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-artic/Pods-artic-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-artic/Pods-artic-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-artic/Pods-artic-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		50A07E39EB6C99AF9850D3D1 /* [CP] Check Pods Manifest.lock */ = {
+		5CDFD1CB88C30D4D37699EBB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -347,24 +313,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7EFDDE41948E2786FC1511CF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-artic-articTests/Pods-artic-articTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-artic-articTests/Pods-artic-articTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-artic-articTests/Pods-artic-articTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		91CF74B64B70AF943C7A9779 /* [CP] Check Pods Manifest.lock */ = {
+		680972C637B6B3AD6E31731F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -384,6 +333,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C10C8165DA75619FE7088AC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-artic/Pods-artic-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-artic/Pods-artic-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-artic/Pods-artic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7212E60F9B381F8A062D2DE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-artic/Pods-artic-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-artic/Pods-artic-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-artic/Pods-artic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE4B31B972F6D4B5FDB1462A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-artic-articTests/Pods-artic-articTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-artic-articTests/Pods-artic-articTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-artic-articTests/Pods-artic-articTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -438,7 +438,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97AC5976DF206C4FDC3FCE16 /* Pods-artic-articTests.debug.xcconfig */;
+			baseConfigurationReference = 4ECEF50FD6F9361E13F0B00B /* Pods-artic-articTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -465,7 +465,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BDA665FB9254C26E5B65869C /* Pods-artic-articTests.release.xcconfig */;
+			baseConfigurationReference = 28538B981C15A83D6AB4AD4D /* Pods-artic-articTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -489,7 +489,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DFD6C54738346AED364B89C /* Pods-artic.debug.xcconfig */;
+			baseConfigurationReference = ED74BDADC410A87FCE53C150 /* Pods-artic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -516,7 +516,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1EFBA05CB1E8F9A463D05FA1 /* Pods-artic.release.xcconfig */;
+			baseConfigurationReference = E1CE373ABAA476E9643623C6 /* Pods-artic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
