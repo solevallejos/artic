@@ -76,7 +76,7 @@ src/
 
 ## Unresolved Issues
 ### Unrecognized Font-Family by iOS
-Despite being installed in all the correct places in the project, iOS cannot recognize the installed fonts. Attempts to resolve this issue, including various methods, were not successful. Default system fonts for each operating system were used to avoid potential problems. The original design idea was to use the Sabon and IdealSans fonts in the same way they are used on the website.
+Despite being installed in all the correct places in the project, iOS cannot recognize the installed fonts. I attempted to resolve this issue with various methods, [including this one](https://www.pixeldock.com/blog/uifont-problem-when-using-more-than-2-custom-fonts-of-the-same-font-family/), but they were not successful. Default system fonts for each operating system were used to avoid potential problems. The original design idea was to use the Sabon and IdealSans fonts in the same way they are used on the website.
 
 ### Deprecated Prop-types
 React Native HTML View uses deprecated prop-types, which results in an error every time the project is loaded. The solution involves using a patch, but as this could potentially cause issues, it was decided to leave the error as is.
