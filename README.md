@@ -69,7 +69,6 @@ src/
 * [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/)
 * [React Native SVG](https://github.com/software-mansion/react-native-svg)
 * [React Native SVG Transformer](https://github.com/kristerkari/react-native-svg-transformer)
-* [React Native Splash Screen](https://www.npmjs.com/package/react-native-splash-screen)
 * [Typescript](https://www.typescriptlang.org/)
 * [Fast Image](https://github.com/DylanVann/react-native-fast-image)
 * [React Native HTML View](https://github.com/jsdf/react-native-htmlview)
